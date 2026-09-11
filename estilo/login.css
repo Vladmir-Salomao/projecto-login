@@ -15,7 +15,7 @@ main{
     left: 50%;
     translate: -50% -50%;
     background-color: white;
-    width: 80vw;
+    width: 50vw;
     max-width: 600px;
     margin: auto;
     border-radius: 10px;
@@ -23,7 +23,7 @@ main{
 #imagem{
     background-image: url(../../Camera\ Roll/prisão-500.JPG);
     background-color: red;
-    height: 200px;
+    height: 250px;
     border-radius: 10px 10px 0 0;
     background-position: center;
     background-size: cover;
@@ -35,10 +35,10 @@ main{
 }
 h1{
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
 p{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 div img {
     width: 35px;
