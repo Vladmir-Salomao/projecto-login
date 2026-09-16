@@ -16,7 +16,7 @@ main{
     translate: -50% -50%;
     background-color: white;
     width: 70vw;
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
     border-radius: 10px;
 }
