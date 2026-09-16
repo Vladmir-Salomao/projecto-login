@@ -15,7 +15,7 @@ main{
     left: 50%;
     translate: -50% -50%;
     background-color: white;
-    width: 80vw;
+    width: 70vw;
     max-width: 600px;
     margin: auto;
     border-radius: 10px;
@@ -23,7 +23,7 @@ main{
 #imagem{
     background-image: url(../imagens/prisão-500.JPG);
     background-color: red;
-    height: 250px;
+    height: 200px;
     border-radius: 10px 10px 0 0;
     background-position: center;
     background-size: cover;
@@ -56,7 +56,7 @@ div img {
     text-transform:  capitalize;
     font-weight: bolder;
     border: 0.1px solid black;
-    background-color: white;
+    background-color: ;
 }
 .decisao:hover{
     background-color: rgb(97, 226, 183);
@@ -84,9 +84,6 @@ div img {
     background-color: blueviolet;
     margin: 1px;
     border-radius: 10px;
-}
-.c-campo{
-    background-color: white;
 }
 div{
     display: flex;
