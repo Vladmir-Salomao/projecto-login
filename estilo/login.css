@@ -15,13 +15,13 @@ main{
     left: 50%;
     translate: -50% -50%;
     background-color: white;
-    width: 50vw;
+    width: 80vw;
     max-width: 600px;
     margin: auto;
     border-radius: 10px;
 }
 #imagem{
-    background-image: url(../../Camera\ Roll/prisão-500.JPG);
+    background-image: url(../imagens/prisão-500.JPG);
     background-color: red;
     height: 250px;
     border-radius: 10px 10px 0 0;
@@ -35,10 +35,10 @@ main{
 }
 h1{
     text-align: center;
-    margin: 5px;
 }
 p{
-    margin: 10px 0;
+    margin: 5px 0;
+    font-size: 14px;
 }
 div img {
     width: 35px;
@@ -55,14 +55,21 @@ div img {
     cursor: pointer;
     text-transform:  capitalize;
     font-weight: bolder;
-     border: 0.1px solid black;
-     background-color: white;
-
+    border: 0.1px solid black;
+    background-color: white;
+}
+.decisao:hover{
+    background-color: rgb(97, 226, 183);
+    color: white;
 }
 .decisao:first-child{
     background-color: rgb(97, 226, 183);
     border: 0.1px solid black;
     color: white;
+}
+.decisao:first-child:hover{
+    background-color: white;
+    color: rgb(97, 226, 183);
 }
 .campo{
     margin: 2px 0; 
@@ -77,6 +84,9 @@ div img {
     background-color: blueviolet;
     margin: 1px;
     border-radius: 10px;
+}
+.c-campo{
+    background-color: white;
 }
 div{
     display: flex;
