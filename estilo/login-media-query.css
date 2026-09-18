@@ -1,0 +1,22 @@
+@media screen and (min-width: 600px){
+    body{
+        background-image: linear-gradient(to top,green,white);
+    }
+    main{
+        display: flex;
+        flex-flow: row;
+        width: 70vw;
+        max-width: 600px;
+    }
+    #imagem{
+        background-color: red;
+        width: 700px;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 900px){
+    main{
+        flex-flow: row-reverse;
+    }
+}
