@@ -5,24 +5,23 @@
     box-sizing: border-box;
 }
 html,body{
-    background-color: blueviolet;
-    width: 100vw;
+background-color: rgb(56, 30, 2);    width: 100vw;
     height: 100vh;
 }
 img{
-    width: 20px;
+    height: 100%;
 }
 main{
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.7s ease-in-out;
 }
 section#imagem{
     height: 200px;
@@ -34,23 +33,53 @@ section#formulario{
 }
 h1{
     text-align: center;
+    
 }
 p{
     font-size: 0.8em;
+    margin: 10px 0;
 }
 
-.decisao{
+form > div,.decisao{
     display: block;
     width: 100%;
     border: none;
     cursor: pointer;
-    text-align: center;
-    background-color: red;
-    margin: 2px 0;
-    height: 30px;
-    border-radius: 5px;
+    background-color: rgb(249, 133, 0);
+    color: white;
+    margin: 5px 0;
+    height: 40px;
+    border-radius: 9px;
     text-decoration: none;
+    overflow: hidden;
+    text-transform: capitalize;
+    transition: .4s ease;
+    
+}
+form > div,.decisao:hover{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+form>div>input{
+    height: 38px;
+    width: calc(99.4% - 43px);
+    border: none;
+    translate: -1px -16.3px;
+    border-radius: 10px;
+    background-color: rgba(255, 208, 154, 0.946);
+}
+.c-campo>input:focus-within{
+    background-color: white;
+}
+label{
+    display: none;
 }
 a.decisao{
-    padd
+    padding-top: 10px;
+    text-align: center;
+    /*background-color: rgb(79, 76, 76);*/
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(249, 133, 0);
+    /*vladmir*/
 }
