@@ -1,92 +1,56 @@
-@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-body{
+html,body{
     background-color: blueviolet;
+    width: 100vw;
     height: 100vh;
-    position: relative;
+}
+img{
+    width: 20px;
 }
 main{
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
+
     background-color: white;
-    width: 70vw;
-    max-width: 300px;
-    margin: auto;
-    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
 }
-#imagem{
-    background-image: url(../imagens/prisão-500.JPG);
-    background-color: red;
+section#imagem{
     height: 200px;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
+    background-image: url(../imagens/prisão-500.JPG);
     background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.621);
 }
-#formulario{
-    padding: 10px;
+section#formulario{
+    padding: 5px;
 }
 h1{
     text-align: center;
 }
 p{
-    margin: 5px 0;
-    font-size: 14px;
-}
-div img {
-    width: 35px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
+    font-size: 0.8em;
 }
 
 .decisao{
-    width: 100%;
-    margin: 1px;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-transform:  capitalize;
-    font-weight: bolder;
-    border: 0.1px solid black;
-}
-.decisao:hover{
-    background-color: rgb(97, 226, 183);
-    color: white;
-}
-.decisao:first-child{
-    background-color: rgb(97, 226, 183);
-    border: 0.1px solid black;
-    color: white;
-}
-.decisao:first-child:hover{
-    background-color: white;
-    color: rgb(97, 226, 183);
-}
-.campo{
-    margin: 2px 0; 
-    margin-left: 5px;
-    width: 100%;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(184, 250, 228);
-    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.242);
-}
-.c-campo{
-    background-color: blueviolet;
-    margin: 1px;
-    border-radius: 10px;
-}
-div{
-    display: flex;
-}
-.a{
     display: block;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: red;
+    margin: 2px 0;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a.decisao{
+    padd
 }

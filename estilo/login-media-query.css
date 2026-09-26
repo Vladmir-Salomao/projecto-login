@@ -1,22 +1,42 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     body{
-        background-image: linear-gradient(to top,green,white);
+        background-image: linear-gradient(to right,rgb(249, 133, 0), blueviolet);
     }
     main{
-        display: flex;
-        flex-flow: row;
-        width: 70vw;
-        max-width: 600px;
-    }
-    #imagem{
-        background-color: red;
-        width: 700px;
-        height: auto;
+        width: 600px;
+        height: 320px;
         border-radius: 10px;
+
+    }
+    section#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center;
+    }
+    section#formulario{
+        float: right;
+        width: 70%;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 1em;
+        margin-bottom: 5px;
     }
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width:978px){
     main{
-        flex-flow: row-reverse;
+        width: 700px;
+        height: 340px;
+    }
+    section#imagem{
+        width: 50%;
+        float: right;
+    }
+    section#formulario{
+        width: 50%;
+        float: left;
     }
 }
